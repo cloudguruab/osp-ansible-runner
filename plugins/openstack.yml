@@ -1,0 +1,8 @@
+plugin: openstack.cloud.openstack
+auth_url: http://192.168.122.4/identity      
+username: admin
+password: password
+project_name: admin
+use_hostnames: True
+expand_hostvars: False
+fail_on_errors: True
