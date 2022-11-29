@@ -7,6 +7,7 @@ eval "echo \"$(cat /runner/env/settings)\"" > /runner/env/settings
 # MY CHANGES GO HERE..
 export RUNNER_PLAYBOOK
 
+
 # Contents from ansible-runner entrypoint
 if [ -n "$EP_DEBUG" ]; then
   set -eux
