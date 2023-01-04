@@ -5,6 +5,7 @@ USER root
 # Test
 # ADD ping.yaml ./project
 
+
 USER root
 RUN ansible-galaxy collection install cloudguruab.edpm_plugin 
 RUN chmod -R 777 /usr/share/ansible
